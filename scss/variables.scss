@@ -1,0 +1,17 @@
+//<Шрифт по умолчанию>==========================================================================================
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@600&display=swap");
+$fontFamily: Gilroy-Regular, system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+//</Шрифт по умолчанию>==========================================================================================
+
+//<ПЕРЕМЕННЫЕ>===========================================================================================================
+$minWidth: 300px;
+$maxWidth: 1152;
+$maxWidthContainer: 1200;
+$md1: $maxWidthContainer + 12;
+//$md2: 991.98;
+$md3: 767.98;
+//$md4: 479.98;
+//</ПЕРЕМЕННЫЕ>===========================================================================================================
