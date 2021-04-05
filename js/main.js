@@ -11,8 +11,7 @@ $(function () {
 
 $('.shopmenu__href').hover(function(){
   $(this).addClass("active");
-  $('.shopmenu__img').attr('src', '/assets/img/shopmenu/' +$(this).data('img'));
-  console.log('/assets/img/shopmenu/' +$(this).data('img'));
+  $('.shopmenu__img').attr('src', './assets/img/shopmenu/' +$(this).data('img'));
 },function(){
   $(this).removeClass("active");
 }
